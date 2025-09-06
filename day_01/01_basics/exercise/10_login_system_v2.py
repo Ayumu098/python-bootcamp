@@ -1,10 +1,11 @@
-# Expected password (you can change the value)
+# Expected password 
 correct_password = "pass"
 
 # Enter user password
 password_input = input("Please provide password: ")
 
-# TODO: Notify user if password is valid or invalid
+# TODO: Notify user if the password is valid
 correct_password_given = correct_password == password_input
-print("Access Granted")
-print("Access Denied")
+
+if correct_password_given:
+    print("Access granted")   
