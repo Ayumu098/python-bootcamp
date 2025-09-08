@@ -1,5 +1,5 @@
 """
-    Create a function line_generator that has a paramaeter number
+    Crete a function line_generator that has a paramaeter number
     and prints the following:
     Line 1
     Line 2
@@ -14,3 +14,5 @@ def line_generator(number):
         print(f"Line {i}")
 line_generator(4)
         
+
+

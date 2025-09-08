@@ -4,8 +4,29 @@ while running:
     command = input("Provide command: ")
 
     if command == "add":
-        pass  # TODO: Ask for number, add to total, and print
+       number = int(input("Enter a number: "))
+       total += number
+       print("Current total is:", total)
+         
     if command == "sub":
-        pass  # TODO: Ask for number, subtract to total, and print
+       number = int(input("Enter a number: "))
+       total -= number
+       print("Current total is:", total)
+    
     elif command == "exit":
         running = False
+
+# Using match-case
+match command:
+    case "add": 
+        number = int(input("Enter a number: "))
+        total += number
+        print("Current total is:", total)       
+        
+    case "sub": 
+        number = int(input("Enter a number: "))
+        total -= number
+        print("Current total is:", total)
+    case "exit":
+        running = False
+        

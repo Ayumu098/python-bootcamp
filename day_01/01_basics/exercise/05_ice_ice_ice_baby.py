@@ -1,5 +1,5 @@
-ice = "Ice"
+ice = "Ice " *3
 baby = "Baby"
 
 # TODO: Print "Ice Ice Ice Baby" using + and *
-print()
+print(ice + baby)

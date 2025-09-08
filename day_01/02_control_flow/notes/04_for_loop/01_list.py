@@ -1,2 +1,10 @@
 items = ["milk", "egg", "ice"]
-print(items)
+for item in items:
+    print(item)
+    
+    
+    
+    
+    
+    
+    
