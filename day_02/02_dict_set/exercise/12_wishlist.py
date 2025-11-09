@@ -1,13 +1,11 @@
-# TODO: Fill in the details of the item you plan to buy
 order = {
-    "Name": ...,
-    "Info": ...,
+    "Name": "Laptop Stand",
+    "Info": "Metallic stand",
+    "Price": 1500,
+    "Discounted": False
 }
 
-# TODO: Print the item details in the following format:
-"""
-Order:
-	Name: item name
-	Info: item info
-	...
-"""
+# dict -> print details
+print("Order:")
+for field, details in order.items():
+    print(f"\t{field}: {details}")

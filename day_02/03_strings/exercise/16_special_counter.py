@@ -1,7 +1,13 @@
-string = input('Enter string: ')
-special_count = 0
-special_char = '!@#$%^&*()'
+password = input("Enter password: ")
 
-# TODO: Add one to special_count for each special char in string
-special_count += 1
-print(special_count)
+lower_case_count = 0
+upper_case_count = 0
+
+for letter in password:
+    if letter.islower():
+        lower_case_count += 1
+    elif letter.isupper():
+        upper_case_count += 1
+
+print(lower_case_count)
+print(upper_case_count)

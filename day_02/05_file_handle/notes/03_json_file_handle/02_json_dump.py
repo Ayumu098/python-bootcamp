@@ -5,5 +5,6 @@ data = [
     {'Name': 'Bob', 'Age': 25, 'Occupation': 'Designer'},
 ]
 
-with open('people.json', 'w') as file:
-    json.dump(data, file)
+with open('people.json', 'r') as file:
+    read_data = json.load(file)
+    print(type(data))
